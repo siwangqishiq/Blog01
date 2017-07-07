@@ -1,3 +1,5 @@
+
+
 # 基于有限状态机的字符串搜索算法
     在一个指定的字符串P中 寻找是否存在子串T，若存在返回T在P中第一次出现的位置，若不存在返回-1,这是经常会遇到的问题。    
     目前 `java sdk` 中的 `String` 类提供的 `indexOf`方法实现方法是朴素的字符串搜索 
@@ -41,5 +43,6 @@
         return -1;
     }    
     
-主体部分为两个for循环，时间复杂度 已经可以满足大部分的 <img src="http://chart.googleapis.com/chart?cht=tx&chl=\Large \Theta(mn)" style="border:none;">
+主体部分为两个for循环，时间复杂度 已经可以满足大部分的 
+![](http://latex.codecogs.com/gif.latex?\Theta(mn) "")
 
